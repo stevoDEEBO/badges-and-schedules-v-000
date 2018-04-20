@@ -17,7 +17,7 @@ def assign_rooms(speakers)
   rm_assigns
 end
 
-def printer
+def printer(speakers)
   speakers.each {|speakers| print batch_badge_creator}
   speakers.each {|speakers| print assign_rooms}
 end
