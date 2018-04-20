@@ -10,3 +10,7 @@ def assign_rooms
   room.each_with_index do |num|
   puts "Hello, #{speakers}! You'll be assigned to #{room}!"
 end
+
+def printer
+
+end
