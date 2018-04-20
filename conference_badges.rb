@@ -2,6 +2,7 @@ def batch_badge_creator
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   speakers.each do |name|
     puts "Hello, my name is #{name}!"
+  end
   sq_array
 end
 
@@ -12,5 +13,6 @@ def assign_rooms
 end
 
 def printer
-
+  
 end
+
