@@ -7,5 +7,5 @@ end
 
 def assign_rooms
   room = [1, 2, 3, 4, 5, 6, 7]
-  "Hello, {speakers}! You'll be assigned to #{room}!"
+  puts "Hello, {speakers}! You'll be assigned to #{room}!"
 end
