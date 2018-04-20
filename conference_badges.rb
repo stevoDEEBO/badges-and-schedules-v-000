@@ -3,7 +3,6 @@ def batch_badge_creator
   speakers.each do |name|
     puts "Hello, my name is #{name}!"
   end
-  sq_array
 end
 
 def assign_rooms
@@ -13,6 +12,5 @@ def assign_rooms
 end
 
 def printer
-  
-end
 
+end
