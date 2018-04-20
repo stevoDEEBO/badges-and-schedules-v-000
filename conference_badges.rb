@@ -13,7 +13,9 @@ end
 
 def assign_rooms(speakers, room)
   rooms = room + 1
-  speakers.each_with_index {|speakers, rooms| puts "Hello, #{speakers}! You'll be assigned to #{room}!" }
+  rm_assigns = []
+  speakers.each_with_index { |speakers, rooms| puts rm_assigns << "Hello, #{speakers}! You'll be assigned to #{rooms}!" }
+  rm_assigns
 end
 
 def printer
