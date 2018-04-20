@@ -11,8 +11,9 @@ def batch_badge_creator(speakers)
   badges
 end
 
-def assign_rooms(speakers)
-  room.each_with_index {|num| puts "Hello, #{speakers}! You'll be assigned to #{room}!" }
+def assign_rooms(speakers, room)
+  rooms = room + 1
+  speakers.each_with_index {|speakers, rooms| puts "Hello, #{speakers}! You'll be assigned to #{room}!" }
 end
 
 def printer
