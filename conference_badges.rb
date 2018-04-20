@@ -18,6 +18,6 @@ def assign_rooms(speakers)
 end
 
 def printer(speakers)
-  speakers.each {|speakers| print batch_badge_creator}
-  speakers.each {|speakers| print assign_rooms}
+  speakers.each {|speakers| print batch_badge_creator(name)}
+  speakers.each {|speakers| print assign_rooms(name)}
 end
