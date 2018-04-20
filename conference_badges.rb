@@ -13,7 +13,7 @@ end
 
 def assign_rooms(speakers)
   rm_assigns = []
-  speakers.each_with_index { |speakers, rooms| puts rm_assigns << "Hello, #{speakers}! You'll be assigned to #{rooms+1}!" }
+  speakers.each_with_index { |speakers, room+1| puts rm_assigns << "Hello, #{speakers}! You'll be assigned to #{room}!" }
   rm_assigns
 end
 
